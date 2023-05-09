@@ -1,0 +1,55 @@
+Golang - Structs, Slices, and Maps
+
+
+Sudhakar & Gopinath
+sudhakar.annadurai@thoughtworks.com
+gopinath.r@thoughtworks.com
+
+*  Structs
+- A struct is a composite data type that groups together zero or more values with different types
+- In Golang, a struct is defined using the `type` keyword followed by the name of the struct and the fields it contains
+Example:
+.code struct.go /^//EG1START/,/^//EG1END/ HL12
+
+*  Structs - Ctd..
+- We can create a new instance of the struct using the following syntax:
+Example:
+.code struct.go /^//EG2START/,/^//EG2END/ HL12
+- We can access the fields of a struct using the `.` operator, like this:
+Example:
+.code struct.go /^//EG3START/,/^//EG3END/ HL12
+
+*  Lets See Structs in Action
+.play struct.go
+
+*  Slices
+- A slice is a dynamic array that can grow or shrink as needed
+- In Golang, a slice is defined using square brackets *[]* with an optional size
+Example:
+.code slices.go /^//EG1START/,/^//EG1END/ HL12
+- We can create a slice with initial values using the following syntax:
+.code slices.go /^//EG2START/,/^//EG2END/ HL12
+- We can add an element to a slice using the *append* function, like this:
+.code slices.go /^//EG3START/,/^//EG3END/ HL12
+
+
+*  Lets See Slices in Action
+- We can access and modify elements in a slice using square brackets *[]*, like this:
+.play slices.go
+
+*  Maps
+- A map is a key-value store where each key is unique
+- In Golang, a map is defined using the *make* function with the *map* keyword and the types of the keys and values
+Example:
+.code maps.go /^//EG1START/,/^//EG1END/ HL12
+- We can add a key-value pair to a map using the following syntax:
+.code maps.go /^//EG2START/,/^//EG2END/ HL12
+
+*  Maps - Ctd ...
+- We can access the value associated with a key using square brackets *[]*, like this:
+.code maps.go /^//EG3START/,/^//EG3END/ HL12
+- We can delete a key-value pair from a map using the *delete* function, like this:
+.code maps.go /^//EG4START/,/^//EG4END/ HL12
+
+*  Lets See Maps in Action
+.play maps.go

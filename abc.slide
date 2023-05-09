@@ -1,0 +1,22 @@
+Title: Golang - Structs, Slices, and Maps
+Authors: Sudhakar Annadurai, Gopinath R
+
+---
+
+* Structs
+
+- A struct is a composite data type that groups together zero or more values with different types.
+
+- In Golang, a struct is defined using the `type` keyword followed by the name of the struct and the fields it contains.
+
+---
+
+[footer]
+
+---
+
+{{define "footer"}}
+<div style="position: absolute; bottom: 0; width: 100%; text-align: center;">
+  <p>All rights reserved to <a href="https://xyz.com">xyz.com</a></p>
+</div>
+{{end}}
