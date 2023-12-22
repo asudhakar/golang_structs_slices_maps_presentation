@@ -1,9 +1,7 @@
-Golang - Structs, Slices, and Maps
+Learn Golang with Tests
 
-
-Sudhakar & Gopinath
-sudhakar.annadurai@thoughtworks.com
-gopinath.r@thoughtworks.com
+Sudhakar
+asudhakar@live.in
 
 *  Structs
 - A struct is a composite data type that groups together zero or more values with different types
